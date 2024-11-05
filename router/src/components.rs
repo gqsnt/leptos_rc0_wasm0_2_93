@@ -111,7 +111,7 @@ where
 }
 
 #[derive(Clone)]
-pub(crate) struct RouterContext {
+pub struct RouterContext {
     pub base: Option<Cow<'static, str>>,
     pub current_url: ArcRwSignal<Url>,
     pub location: Location,
